@@ -40,6 +40,8 @@ end
 
 gem 'therubyracer'
 
+gem 'net-ldap'
+
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 
