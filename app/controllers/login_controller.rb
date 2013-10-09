@@ -30,7 +30,7 @@ class LoginController < ApplicationController
 	end
 
 	def index
-		puts "testing............."
-	    UserMailer.welcome_email("fray9166@gmail.com").deliver
+		puts "sending............."
+	    UserMailer.welcome_email.deliver
 	end
 end
