@@ -1,5 +1,5 @@
 class UserMailer < ActionMailer::Base
-  default :from => "fray9166@gmail.com"
+  default :from => "no-reply@vmware.com"
 
   def welcome_email
   	@test = "1111"
